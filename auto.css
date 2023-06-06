@@ -1,3 +1,17 @@
+#hatter {
+  background-image: url(kepek/hatter.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.szin {
+  height: 100%;
+  background-color: rgba(200, 200, 200, 0.97);
+}
+
 .leiras {
         text-align: justify;
         font-size: 0.8em;
@@ -25,4 +39,19 @@
     font-size: 1.6rem;
     text-align: right;
     color:green;
+}
+
+nav {
+  background-color: rgb(155, 155, 155);
+}
+
+footer {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin-top: 20px;
 }
