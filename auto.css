@@ -1,0 +1,28 @@
+.leiras {
+        text-align: justify;
+        font-size: 0.8em;
+        overflow: hidden;
+        max-height: 5em; /* Változtathatod a szükséges magasságra */
+        line-height: 1.5em; /* Az előzővel megegyező érték */
+        cursor: pointer;
+        transition: max-height 0.3s ease; /* Animáció hozzáadása */
+      }
+      
+.leiras:hover {
+        max-height: none;
+        background: linear-gradient(transparent, white);
+        pointer-events: none;
+      }
+      
+.tipus {
+    font-size: 1.2rem;
+    color:brown;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ar {
+    font-size: 1.6rem;
+    text-align: right;
+    color:green;
+}
