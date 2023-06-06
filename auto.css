@@ -44,3 +44,10 @@
 nav {
   background-color: rgb(155, 155, 155);
 }
+
+footer {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
